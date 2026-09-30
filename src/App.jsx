@@ -26,15 +26,18 @@ useEffect(() => {
   return (
     <>
       <Card>
-        <Card.Body>
+        <Card.Body className='bkground'>
           <Card.Title>
-            <Card.Text>
+            <Card.Text className="title-bold">
               {pkmn?.name}
             </Card.Text>
           </Card.Title>
             <Card.Text>
               #{pkmn?.id}
             </Card.Text>
+            <Card.Text>
+  Altura: {pkmn?.height}
+</Card.Text>
             <Card.Text>
               Peso: {pkmn?.weight}
             </Card.Text>
@@ -43,7 +46,7 @@ useEffect(() => {
                 src={pkmn?.sprites.other.dream_world.front_default}
                 />
         </Card.Body>
-          <Card.Text>
+          <Card.Text className='saludos'>
               <marquee>SALUDOS CORDIALES</marquee>
             </Card.Text>
       </Card>

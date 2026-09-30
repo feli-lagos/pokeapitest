@@ -4,3 +4,21 @@
   object-fit: contain;
   margin: 0 auto;
 }
+
+.bkground {
+  background-color: black;
+}
+
+.title-bold {
+  font-weight: bold;
+}
+
+.card-text {
+  color: palevioletred;
+}
+
+.saludos{
+  color: black;
+  font-family: monospace;
+  background-color: palevioletred;
+}
